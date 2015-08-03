@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>View page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--page navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Lorem ipsum Name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Your account<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Sign Out</a></li>
+                                <li><a href="#">Account Settings</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--page navbar end-->
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="navbar-left">
+                <p>
+                    find any code snippet<br />you want
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main main-wrap">
+            <div class="navbar-header">
+                <p class="navbar-brand">Cycle throught a list</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <button id="downloadBtn" class="btn btn-warning">Download</button>
+                    
+                </form>
+            </div><!--/.navbar-collapse -->
+            <div class="textAreaDescription clearfix">
+                <div class="pull-left">
+                    <p>DEMO</p>
+                </div>
+                <div class="pull-right">
+                    <span>Select source file:</span>
+                    <select id="selectSourceFile"></select>
+
+                </div>
+            </div>
+            <div class="form-group outputFileContentField">
+   
+                <textarea class="form-control" id="fileContent" rows="40"></textarea>
+            </div>
+            <div class="outputFileContentFieldDescription">
+                <p>
+                             
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-footer">
+        <div class="container">
+            <div class="clearfix">
+                <div class="pull-left">
+                    <img src="img/footer_ico.jpg" class="navbar-left" alt="#" />
+                    <p class="pull-right ">
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod,<br />
+                        iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    </p>
+                </div>
+                <div class="pull-right copyright">
+                    <p>Copyright &copy; 2012 Lipsum-Inc. All right reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script defer src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/extends.js"></script>
+    <script defer src="js/view.js"></script>
+</body>
+</html>
