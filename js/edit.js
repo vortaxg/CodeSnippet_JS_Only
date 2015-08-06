@@ -9,7 +9,7 @@ var id,
     if (id in localStorage) {
         workingObj = JSON.parse(localStorage.getItem(id));
     } else {
-        location.href = '404.html';
+        location.href = "404.html";
     }
     drawInputData(workingObj);
 })();
@@ -118,11 +118,11 @@ function handleSaveSnippet() {
     sObj = JSON.stringify(workingObj);
     delete localStorage[id];
     localStorage.setItem(id, sObj);
-    location.href = 'index.html';
+    location.href = "index.html";
 }
 
 function handleCancelSnippet() {
-    location.href = 'index.html';
+    location.href = "index.html";
 }
 
 function handleChangeSnippetNameField(event) {
